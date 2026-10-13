@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unified Inbox for Gmail — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; background: #f6f8fc; color: #1f1f1f; font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 32px; font-weight: 500; margin: 0 0 4px; }
+    h2 { font-size: 20px; font-weight: 500; margin: 36px 0 8px; }
+    p, li { color: #3c4043; }
+    .meta { color: #5f6368; font-size: 14px; margin-bottom: 32px; }
+    .box { background: #fff; border: 1px solid #e0e3e7; border-radius: 12px; padding: 16px 20px; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid #e0e3e7; }
+    th { font-weight: 500; color: #1f1f1f; }
+    a { color: #0b57d0; }
+    code { background: #eef1f5; border-radius: 4px; padding: 1px 5px; font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Unified Inbox for Gmail — Privacy Policy</h1>
+  <div class="meta">Last updated: 13 October 2026</div>
+
+  <div class="box">
+    <strong>In short:</strong> Unified Inbox runs entirely in your browser. Your emails go directly between
+    your browser and Google. The developer does not operate any server, never receives your emails, tokens
+    or personal data, and does not use analytics, advertising or tracking.
+  </div>
+
+  <h2>What Unified Inbox does</h2>
+  <p>Unified Inbox for Gmail ("Unified Inbox") is a Chrome extension that shows the inboxes of several Gmail accounts together inside
+  Gmail, and lets you read, search, reply to, send and organise email for each connected account.</p>
+
+  <h2>Data the extension accesses</h2>
+  <p>When you connect a Google account, you grant the extension access through Google's OAuth consent screen.
+  It requests these permissions (scopes):</p>
+  <table>
+    <tr><th>Scope</th><th>Why it is needed</th></tr>
+    <tr><td><code>email</code>, <code>profile</code></td><td>To identify the connected account (email address, name and profile picture) and show it in the extension.</td></tr>
+    <tr><td><code>https://www.googleapis.com/auth/gmail.modify</code></td><td>To list and display your conversations, open messages and attachments, search, archive, delete, mark as read/unread, star, label, report spam, unsubscribe, create and edit labels, read your signature, and send the emails you write — all only when you use those features.</td></tr>
+  </table>
+
+  <h2>How your data is used</h2>
+  <ul>
+    <li>Data is used <strong>only</strong> to provide the features you see in the extension, at your request.</li>
+    <li>Data is <strong>not</strong> sold, rented or shared with anyone.</li>
+    <li>Data is <strong>not</strong> used for advertising, profiling, credit decisions or any purpose unrelated to the extension.</li>
+    <li>No human (including the developer) reads your data.</li>
+  </ul>
+
+  <h2>Where your data is stored</h2>
+  <p>All data stays on your own device, in Chrome's extension storage:</p>
+  <ul>
+    <li><strong>Account list and settings</strong> (email, name, picture URL, colour, chosen categories, label names) — stored locally until you remove the account or uninstall the extension.</li>
+    <li><strong>Conversation list cache</strong> (subject, sender, short snippet, date, read/star/label state) — stored locally so the inbox opens quickly; refreshed from Gmail and deleted when you remove the account.</li>
+    <li><strong>Access tokens</strong> — kept in Chrome's session storage, which is cleared when the browser closes. No long-lived refresh tokens are stored.</li>
+    <li><strong>Message bodies and attachments</strong> — loaded from Gmail when you open a conversation and kept only in memory while it is open.</li>
+    <li><strong>Templates, snoozes and reminders</strong> — your saved templates and the list of snoozed conversations and follow-up reminders (subject and due time) are stored locally.</li>
+    <li><strong>Drafts and scheduled emails</strong> — "Save as draft" and "Schedule send in Gmail" save the message as a draft in that account's Gmail; scheduling is then done by Gmail itself.</li>
+  </ul>
+  <p>To snooze a conversation, the extension adds a Gmail label called <code>Unified Inbox/Snoozed</code> to it and returns
+  it to your inbox at the chosen time. "Remind me if nobody replies" returns a conversation to your inbox if no reply arrived.
+  Desktop notifications are shown locally by Chrome and can be turned off in the extension's settings.</p>
+  <p>The extension communicates only with Google services (<code>gmail.googleapis.com</code>, <code>www.googleapis.com</code>,
+  <code>accounts.google.com</code>) and with Gmail itself. When you choose "Unsubscribe", the extension contacts the
+  unsubscribe address provided by that email's sender. Images inside emails are loaded from the sender's servers when
+  you open a message, as in most email clients.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Unified Inbox's use and transfer to any other app of information received from Google APIs will adhere to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Remove an account:</strong> accounts menu → ⋮ → Remove account. Its local data is deleted.</li>
+    <li><strong>Revoke access:</strong> at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li><strong>Uninstall:</strong> removing the extension deletes all of its local data.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>All connections to Google use HTTPS. Email content is displayed in a sandboxed frame that cannot run scripts.
+  Tokens are not accessible to web pages.</p>
+
+  <h2>Children</h2>
+  <p>The extension is not directed at children under 13 and does not knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published at this address with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:contact@mccprogrammer.com">contact@mccprogrammer.com</a></p>
+
+  <p class="meta">Gmail is a trademark of Google LLC. Unified Inbox for Gmail is not affiliated with or endorsed by Google.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unified Inbox for Gmail</title>
+  <meta name="description" content="Every Gmail account in one inbox — built right into Gmail. No new app to learn.">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f8fc; color: #1f1f1f; font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    a { color: #0b57d0; }
+    .hero { background: linear-gradient(135deg, #0b57d0, #083b8f); color: #fff; text-align: center; padding: 64px 20px 56px; }
+    .hero img { width: 112px; height: 112px; }
+    .hero h1 { font-size: 40px; font-weight: 600; margin: 16px 0 4px; }
+    .hero p { font-size: 20px; color: #d3e3fd; margin: 0 0 28px; }
+    .btn { display: inline-block; padding: 12px 24px; border-radius: 24px; background: #fff; color: #0b57d0; font-weight: 600; text-decoration: none; margin: 4px; }
+    .btn.ghost { background: transparent; color: #fff; box-shadow: inset 0 0 0 2px rgba(255,255,255,.6); }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 20px 56px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .card { background: #fff; border: 1px solid #e0e3e7; border-radius: 16px; padding: 20px; }
+    .card h3 { margin: 0 0 6px; font-size: 17px; font-weight: 600; }
+    .card p { margin: 0; color: #444746; font-size: 15px; }
+    .privacy { margin-top: 28px; background: #fff; border-radius: 16px; border: 1px solid #e0e3e7; padding: 20px 24px; }
+    footer { text-align: center; color: #5f6368; font-size: 14px; padding: 0 20px 40px; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="icon.png" alt="">
+    <h1>Unified Inbox for Gmail</h1>
+    <p>Every Gmail account in one inbox — built right into Gmail. No new app to learn.</p>
+    <!-- Replace # with the Chrome Web Store link once the extension is published -->
+    <a class="btn" href="#">Add to Chrome</a>
+    <a class="btn ghost" href="privacy-policy.html">Privacy policy</a>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="card"><h3>One inbox, every account</h3><p>"All Inboxes" inside Gmail, with each account marked in its own colour and tabs per account.</p></div>
+      <div class="card"><h3>Read and reply in place</h3><p>Reply, forward and compose from the right account — your Gmail signature included.</p></div>
+      <div class="card"><h3>Search everything</h3><p>Gmail's own search box looks through all your accounts at once, with Gmail operators.</p></div>
+      <div class="card"><h3>Organise fast</h3><p>Drag to labels, snooze, follow-up reminders, templates and one-click verification codes.</p></div>
+    </div>
+
+    <div class="privacy">
+      <h3 style="margin:0 0 6px">Private by design</h3>
+      <p style="margin:0;color:#444746">Unified Inbox runs entirely in your browser. Your emails travel only between your browser and Google —
+      there is no Unified Inbox server, no analytics and no tracking. Read the full <a href="privacy-policy.html">privacy policy</a>.</p>
+    </div>
+  </main>
+
+  <footer>
+    Made by <a href="https://github.com/MCCProgrammer">mccprogrammer</a> ·
+    <a href="mailto:contact@mccprogrammer.com">contact@mccprogrammer.com</a> ·
+    <a href="https://ko-fi.com/mccprogrammer">Support on Ko-fi</a><br>
+    Gmail is a trademark of Google LLC. Unified Inbox for Gmail is not affiliated with or endorsed by Google.
+  </footer>
+</body>
+</html>
